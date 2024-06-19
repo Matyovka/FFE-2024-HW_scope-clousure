@@ -1,0 +1,139 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 235px auto;
+  position: relative;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: 100px;
+  background-color: #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+
+.wrap {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.wrap h1, .wrap h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap h2 {
+  padding-top: 5px;
+}
+
+.wrap_input {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.result {
+  width: 80px;
+  text-align: center;
+}
+
+.calc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.calc .block2 {
+  width: 70px;
+  margin-top: 28px;
+}
+
+.calc .decrement {
+  background-color: #000000; 
+  color: white;
+  padding: 10px 20px;
+  margin-top: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.calc .decrement:hover {
+  background-color:#3f3a3a;
+}
+
+.calc .increment {
+  background-color: #ee0f0f; 
+  color: white;
+  padding: 10px 20px;
+  margin-top: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.calc .increment:hover {
+  background-color: #e34c4c; 
+}
+
+.block2 {
+  width: 200px;
+  height: 40px;
+  background-color: #ccc;
+  margin: 20px;
+  text-align: center;
+  padding: 5px;
+}
+
+.block2 .om {
+  margin-top: 3px;
+  width: 50px;
+  text-align: center;
+  
+}
+
+.back_container {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: -1; 
+}
+
+.block3 {
+  width: 350px; 
+  height: 130px; 
+  border: 3px solid black;
+  margin: 275px auto; 
+  text-align: center;
+  padding: 10px;
+}
+
+.no-border {
+  outline: none;
+  border: none; 
+}
+
+.red-border {
+  border: 3px solid red;
+  
+}
